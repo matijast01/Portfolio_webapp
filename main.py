@@ -9,7 +9,12 @@ with col1:
 
 with col2:
     st.title("Matija Stipcevic")
-    content = """Hi, I am Matija.
-    
+    content = """
+    Hi, I am Matija.
     """
     st.info(content)
+
+content2 = """
+Below you can find some of the apps I have built in Python. Feel free to contact me!
+"""
+st.write(content2)
